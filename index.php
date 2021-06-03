@@ -91,8 +91,6 @@ try {
 
     // getting the resource succeeded!
     // print the Response object
-//    echo \sprintf('<pre>%s</pre>', \var_export($response, true));
-//    echo \sprintf('<pre>%s</pre>', \var_export($response, true));
     $user = json_decode($response->getBody());
     echo \sprintf('<p>%s</p>', $user->email);
     echo '<p>Roles:</p>';
