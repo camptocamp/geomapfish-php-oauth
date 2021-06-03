@@ -1,0 +1,11 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://git.tuxed.net/fkooman/php-oauth2-client"
+    }
+  ],
+  "require": {
+    "fkooman/oauth2-client": "^7"
+  }
+}
