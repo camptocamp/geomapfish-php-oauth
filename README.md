@@ -22,3 +22,7 @@ The important parts are:
 - [Install dependencies from composer.json](https://github.com/camptocamp/geomapfish-php-oauth/blob/master/Dockerfile#L22-L24)
 - [The main page](https://github.com/camptocamp/geomapfish-php-oauth/blob/master/index.php)
 - [The authorisation callback](https://github.com/camptocamp/geomapfish-php-oauth/blob/master/callback.php)
+
+Dependencies:
+
+- [php-oauth2-client](https://github.com/fkooman/php-oauth2-client)
