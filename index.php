@@ -31,7 +31,7 @@ use fkooman\OAuth\Client\OAuthClient;
 use fkooman\OAuth\Client\Provider;
 use fkooman\OAuth\Client\SessionTokenStorage;
 
-$requestScope = 'foo bar';
+$requestScope = '';
 $resourceUri = 'http://172.17.0.1:8484/loginuser';
 
 // absolute link to callback.php in this directory
